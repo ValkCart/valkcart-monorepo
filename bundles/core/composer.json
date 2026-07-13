@@ -1,0 +1,19 @@
+{
+    "name": "valkcart/core",
+    "description": "This is the starting of the development for the valkcart ecommcerce cms",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Valkcart\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cosmin Condur",
+            "email": "cosmincondur@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
