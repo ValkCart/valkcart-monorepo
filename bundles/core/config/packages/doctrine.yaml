@@ -1,0 +1,7 @@
+mappings:
+    ValkcartCore:
+        type: attribute
+        is_bundle: false
+        dir: '%kernel.project_dir%/../../bundles/core/src' # Adjust path as necessary
+        prefix: 'Valkcart\Core'
+        alias: ValkcartCore
