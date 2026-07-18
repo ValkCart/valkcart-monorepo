@@ -1,6 +1,6 @@
 <?php
 
-namespace Valkcart\Core\EntityExtensions\Translations;
+namespace Valkcart\Core\EntityExtensions\Translations\EntityTranslations;
 
 use Doctrine\ORM\Mapping as ORM;
 use Valkcart\Core\EntityExtensions\Translations\TranslatableEntity\ValkcartTranslatableEntityInterface;
@@ -8,7 +8,7 @@ use Valkcart\Core\EntityExtensions\Translations\TranslatableEntity\ValkcartTrans
 trait ValkcartEntityTranslationsTrait
 {
     #[ORM\Column(type: 'string', length: 16)]
-    private string $locale;
+    public string $locale;
 
     #[ORM\ManyToOne(
         targetEntity: ValkcartTranslatableEntityInterface::class,
@@ -17,11 +17,11 @@ trait ValkcartEntityTranslationsTrait
     private ValkcartTranslatableEntityInterface $translatableEntity;
 
     #[ORM\Column(type: 'string', length: 255)]
-    private string $name;
+    public string $name;
 
     #[ORM\Column(type: 'string', length: 255)]
-    private string $slug;
+    public string $slug;
 
     #[ORM\Column(type: 'text', nullable: true)]
-    private ?string $description = null;
+    public ?string $description = null;
 }

@@ -7,6 +7,4 @@ use Valkcart\Core\EntityExtensions\Translations\TranslatableEntity\ValkcartTrans
 trait ValkcartParentProductTrait
 {
     use ValkcartTranslatableEntityTrait;
-
-
 }
