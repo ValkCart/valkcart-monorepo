@@ -1,14 +1,15 @@
 <?php
 
-namespace Valkcart\Core\EntityExtensions\Translations;
+namespace Valkcart\Core\EntityExtensions\Translations\TranslatableEntity;
 
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Valkcart\Core\EntityExtensions\Translations\ValkcartEntityTranslationsInterface;
 
 trait ValkcartTranslatableEntityTrait
 {
     #[ORM\OneToMany(
-        targetEntity: ValkcartTranslationsEntityInterface::class,
+        targetEntity: ValkcartEntityTranslationsInterface::class,
         mappedBy: 'translation',
         orphanRemoval: true)
     ]

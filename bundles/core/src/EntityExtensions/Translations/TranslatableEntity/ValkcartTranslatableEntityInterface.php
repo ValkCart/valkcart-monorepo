@@ -1,6 +1,6 @@
 <?php
 
-namespace Valkcart\Core\EntityExtensions\Translations;
+namespace Valkcart\Core\EntityExtensions\Translations\TranslatableEntity;
 
 use Doctrine\Common\Collections\Collection;
 

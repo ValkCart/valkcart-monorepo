@@ -1,10 +1,10 @@
 <?php
 
-namespace Valkcart\Core\EntityExtensions\Translations;
+namespace Valkcart\Core\EntityExtensions\Translations\EntityTranslations;
 
-use Doctrine\Common\Collections\Collection;
+use Valkcart\Core\EntityExtensions\Translations\TranslatableEntity\ValkcartTranslatableEntityInterface;
 
-interface ValkcartTranslationsEntityInterface
+interface ValkcartEntityTranslationsInterface
 {
     public string $locale { get; set; }
 

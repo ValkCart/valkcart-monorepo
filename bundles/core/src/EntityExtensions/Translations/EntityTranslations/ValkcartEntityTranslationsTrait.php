@@ -3,8 +3,9 @@
 namespace Valkcart\Core\EntityExtensions\Translations;
 
 use Doctrine\ORM\Mapping as ORM;
+use Valkcart\Core\EntityExtensions\Translations\TranslatableEntity\ValkcartTranslatableEntityInterface;
 
-trait ValkcartTranslationsEntityTrait
+trait ValkcartEntityTranslationsTrait
 {
     #[ORM\Column(type: 'string', length: 16)]
     private string $locale;
