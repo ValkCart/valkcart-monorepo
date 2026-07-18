@@ -4,7 +4,7 @@ namespace Valkcart\Core\EntityExtensions\Translations\TranslatableEntity;
 
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
-use Valkcart\Core\EntityExtensions\Translations\ValkcartEntityTranslationsInterface;
+use Valkcart\Core\EntityExtensions\Translations\EntityTranslations\ValkcartEntityTranslationsInterface;
 
 trait ValkcartTranslatableEntityTrait
 {
