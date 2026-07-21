@@ -6,6 +6,7 @@ use Valkcart\Core\EntityExtensions\Translations\TranslatableEntity\ValkcartTrans
 
 interface ValkcartEntityTranslationsInterface
 {
+    public int $id {get;}
     public string $locale { get; set; }
 
     public ValkcartTranslatableEntityInterface $translatableEntity { get; set; }

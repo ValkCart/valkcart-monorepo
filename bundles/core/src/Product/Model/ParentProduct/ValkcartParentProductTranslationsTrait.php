@@ -2,7 +2,7 @@
 
 namespace Valkcart\Core\Product\Model\ParentProduct;
 
-use Valkcart\Core\EntityExtensions\Translations\ValkcartEntityTranslationsTrait;
+use Valkcart\Core\EntityExtensions\Translations\EntityTranslations\ValkcartEntityTranslationsTrait;
 
 trait ValkcartParentProductTranslationsTrait
 {
