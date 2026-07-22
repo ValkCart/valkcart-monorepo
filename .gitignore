@@ -53,6 +53,7 @@
 
 # PHPSTORM
 .idea
+.junie
 # MACOS
 .DS_Store
 
